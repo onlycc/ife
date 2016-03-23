@@ -1,0 +1,76 @@
+body {
+    padding: 0px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: gainsboro;
+    position: absolute;
+}
+h1 {
+    color: black;
+}
+h2 {
+    font-size: medium;
+    color: black;
+}
+h3 {
+    font-size: xx-small;
+    color: darkgray;
+}
+.header {
+    width: 100%;
+    height: 65px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+}
+.header img {
+    padding: 15px;
+    float: left;
+}
+.nav li {
+    float: right;
+    display: inline;
+}
+.nav li a {
+      padding: 5px;
+      color: white;
+      font-family: 宋体;
+      display: inline-block;
+}
+.nav li a:hover {
+    color: darkgrey;
+}
+.container {
+    padding: 10px;
+    margin: 10px;
+    border: 1px dimgray outset;
+}
+
+.btn {
+    width: 80%;
+}
+
+.context {
+    margin-top: 80px;
+    margin-right: 250px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+#right-slider {
+    margin-top: 80px;
+    width: 200px;
+    float: right;
+}
+#one {
+    display: inline-block;
+}
+.footer {
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
