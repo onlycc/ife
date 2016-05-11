@@ -27,6 +27,7 @@ title h1 {
     float: right;
 }
 .pic {
+    float: left;
     width: 80px;
     height: 80px;
     padding: 20px;
@@ -35,3 +36,4 @@ title h1 {
     line-height: 1.5em;
 }
 
+div.clearer {clear: left; line-height: 0; height: 0;}
